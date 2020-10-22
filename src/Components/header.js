@@ -11,9 +11,9 @@ class Header extends PureComponent {
 
  render() {
   return (
-   <div className={` ${Style.header} `}>
+   <div className={`container-fluid ${Style.header} `}>
     <div className="row">
-     <div className="col-sm-1 d-flex">
+     <div className="col-sm-1">
       <svg
        width="30px"
        height="30px"
@@ -27,10 +27,10 @@ class Header extends PureComponent {
        />
       </svg>
      </div>
-     <div className={`col-sm-5 d-flex m-0`}>
+     <div className={`col-md-5 m-0`}>
       <img src={logo} height="40px" width="100px" className={Style.logoPos} />
      </div>
-     <div className="col-sm-6 justify-content-end d-flex">
+     <div className="col-md-6 justify-content-end d-flex">
       <button
        onClick={() => {
         this.btnClick('logout');

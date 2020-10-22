@@ -59,6 +59,7 @@
 .btnExport {
  border: 1px solid blue;
  border-radius: 2px;
+ background: #f1f2f4;
 }
 
 .btnSearch {
